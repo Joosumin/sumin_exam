@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity_skhu" />
+        <activity android:name=".activity_sowl" />
+        <activity android:name=".activity_nutee" />
+        <activity android:name=".activity_home"></activity>
     </application>
 
 </manifest>
