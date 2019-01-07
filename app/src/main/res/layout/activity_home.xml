@@ -7,13 +7,13 @@
     tools:context=".activity_home">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nutee_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:text="홈"
+        android:text="@string/home_message"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/nutee_content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -37,7 +37,7 @@
         app:cardUseCompatPadding="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
+        app:layout_constraintTop_toBottomOf="@+id/nutee_content">
         <Button
             android:id="@+id/btn_intro1"
             android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
             android:textColor="#181F0A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/nutee_content" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -85,7 +85,7 @@
             android:textColor="#181F0A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/nutee_content" />
 
 
     </android.support.v7.widget.CardView>
@@ -121,7 +121,7 @@
             android:textColor="#181F0A"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/nutee_content" />
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView
@@ -147,10 +147,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/btn_intro4"
-        android:layout_marginLeft="30dp"
         android:src="@drawable/ic_home_black_24dp"
-        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+
         />
 
     <Button
@@ -158,7 +157,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginLeft="70dp"
+        android:layout_marginLeft="100dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
