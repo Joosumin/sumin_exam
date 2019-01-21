@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://skhu.ac.kr/uni_int/uni_int_1_1.aspx"));
+                Intent intent = new Intent(MainActivity.this, activity_skhu.class);
                 startActivity(intent);
             }
         });
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button button4 = (Button)findViewById(R.id.btn_intro4);
+        Button button4 = (Button)findViewById(R.id.btn_intro);
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

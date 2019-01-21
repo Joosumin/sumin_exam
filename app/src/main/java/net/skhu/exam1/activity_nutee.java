@@ -18,7 +18,7 @@ public class activity_nutee extends AppCompatActivity {
 
         TextView textView = (TextView)findViewById(R.id.nutee_content);
 
-        Button button1 = (Button)findViewById(R.id.nutee_button);
+        Button button1 = (Button)findViewById(R.id.btn_intro);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
