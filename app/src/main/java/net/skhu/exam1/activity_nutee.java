@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.ImageView;
 
 
 public class activity_nutee extends AppCompatActivity {
@@ -18,12 +19,21 @@ public class activity_nutee extends AppCompatActivity {
 
         TextView textView = (TextView)findViewById(R.id.nutee_content);
 
+
         Button button1 = (Button)findViewById(R.id.btn_intro);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://nutee.kr/index.do"));
                 startActivity(intent);
+            }
+        });
+
+        ImageView imageView_back = (ImageView)findViewById(R.id.imageView_back);
+        imageView_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
             }
         });
     }
